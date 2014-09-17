@@ -10,10 +10,19 @@ $jumbotron-bg:  #ecf0f1;
 
 @import 'bootstrap';
 
+.panel {
+	width: 50%;
+}
+
 .center {
 	text-align: center;
 }
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.carousel			{
+	width:640px;
+  height:360px;
 }
