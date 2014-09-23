@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 20140923170352) do
     t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
-    drop_table "users"
   end
 
   create_table "users", force: true do |t|
