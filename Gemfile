@@ -9,10 +9,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.3.0'
-gem 'mailcatcher'
+
 
 group :development, :test  do 
 		gem 'sqlite3'
+		gem 'mailcatcher'
 end
 
 group :production do 
