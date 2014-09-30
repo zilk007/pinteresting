@@ -11,4 +11,8 @@ class PagesController < ApplicationController
   def carousel	
   end
 
+  def welcome
+
+  end
+
 end
