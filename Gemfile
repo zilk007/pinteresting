@@ -11,14 +11,11 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.3.0'
 gem 'mailcatcher'
 
-group :development, :test  do 
-		gem 'sqlite3'
-end
 
-group :production do 
-		gem 'pg' 
-		gem 'rails_12factor'
-end
+gem 'sqlite3'
+gem 'pg' 
+gem 'rails_12factor'
+
 
       
 gem 'sdoc', '~> 0.4.0',          group: :doc
