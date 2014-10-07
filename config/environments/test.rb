@@ -1,4 +1,5 @@
 Rails.application.configure do
+  Paperclip.options[:command_path] = "/c/Program Files/ImageMagick-6.8.9-Q16/"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
