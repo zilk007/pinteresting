@@ -16,6 +16,9 @@ gem 'masonry-rails', '~> 0.2.0'
 gem 'bootstrap-cdn-rails'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
+gem "figaro"
+gem 'mail'
+gem 'sendgrid-ruby'
 
 
 group :development, :test  do 

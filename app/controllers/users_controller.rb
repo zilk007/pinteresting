@@ -6,6 +6,8 @@ class UsersController < ApplicationController
  
     respond_to do |format|
       if @user.save
+
+        client.send(SendGrid::Mail.new(to: 'zilk@campus.ie', from: 'alan.t.cumiskey@gmail.com', subject: 'Hello world!', text: 'Hi there!', html: '<b>Hi there!</b>'))
         # Tell the UserMailer to send a welcome email after save
         UserMailer.welcome_email(@user).deliver
  

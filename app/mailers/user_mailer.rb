@@ -1,9 +1,9 @@
 class UserMailer < ActionMailer::Base
-  default from: 'notifications@example.com'
+  default from: 'me@gmail.com'
  
   def welcome_email(user)
     @user = user
-    @url  = 'http://example.com/login'
-    mail(to: @user.email, subject: 'Welcome to My Awesome Site')
+    @url  = 'http://www.google.com'
+    mail(to: @user.email, subject: 'test welcome email')
   end
 end
